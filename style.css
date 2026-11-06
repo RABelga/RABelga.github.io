@@ -74,6 +74,10 @@ section h3 {
 .card.clickable { cursor: pointer; transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
 .card.clickable:hover, .card.clickable:focus-visible { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(234,88,12,0.15); outline: none; }
 .card ul { margin-left: 1.2rem; margin-top: 0.5rem; color: var(--text); }
+.sub-project { margin-top: 1rem; background: var(--bg2); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 0.8rem 1rem; }
+.sub-project h5 { color: var(--accent-dark); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem; }
+.sub-project-title { font-weight: 600; color: #431407; margin-bottom: 0.3rem; }
+.sub-project ul { margin-left: 1.2rem; }
 .cert-list li[data-full] { cursor: pointer; border-radius: 6px; padding: 0.15rem 0.4rem; margin-left: -0.4rem; transition: background 0.25s ease, color 0.25s ease; }
 .cert-list li[data-full]:hover, .cert-list li[data-full]:focus-visible { background: #ffedd5; color: var(--accent-dark); outline: none; }
 .muted { color: var(--muted); }
